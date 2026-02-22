@@ -1,0 +1,8 @@
+Builder focuses on how to build
+factory focuses on what to build
+
+Builder pattern allow cretion of complex object step by step
+
+Lets build Car object which is again complex object to create 
+Each Car have engine, colour, seat etc
+May have automatic, sunroof, navigation
