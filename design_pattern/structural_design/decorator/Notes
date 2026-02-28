@@ -1,0 +1,12 @@
+Decorator design pattern allow add additional behaviours to existing class without changing class or inheriting it.
+Decorator wrap the existing class to special wrapper classes which has behaviours.
+
+Lets say we want to Make Coffee with below options
+Simple Coffee
+  --> Coffee with Suger
+  --> Coffee with Suger and Milk
+  --> Coffee with Suger, Milk and Chocolate etc
+
+if we inherite class that will be bad idea
+
+Solution Decorator start base class/behaviour and wrap extra behaviour at runtime
