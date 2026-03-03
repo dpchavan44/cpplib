@@ -1,8 +1,0 @@
-Factory method has 4 main components 
- - Product Interface
- - Concreate Product
- - Creator Interface
- - Concreate Creator
-
-Factory allow subclass to create objects of different object at runtime from base class
-Its acts like vritual constuctor which allow sub class what to create 
