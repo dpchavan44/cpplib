@@ -1,0 +1,8 @@
+* Proxy design pattern allow access control to object along with 
+  - lazy loading
+  - cashing
+* Proxy design pattern has three part common interface, real object and proxy class
+* Common interface will implement by real object and proxy class
+ 
+ Problem : Lets say we need to load image on UI. its expensive task so we need to load image only when needed ans store in cashe
+  
