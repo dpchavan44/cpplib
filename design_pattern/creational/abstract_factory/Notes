@@ -1,0 +1,23 @@
+
+Factory interface create family of product
+Factory method create one prouct 
+
+lets say we wanted to create UI framework for different OS
+
+           UIFramework
+               |
+    -------------------------
+    |                       |
+WindowsFamily            MacFamily
+    |                       |
+-----------            -------------
+|         |           |            |
+Button  Checkbox    Button      Checkbox
+
+First here we need to create interface for each product
+Then concrete product as per need (windows and Mac)
+
+Factory interface which will be responsible to create compatible object and this will be used by client
+Concrete factory which will be responsible to create specific aksed object 
+
+Here client doesn;t know about concrete product, only knows abstraction
