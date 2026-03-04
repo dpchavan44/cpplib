@@ -1,0 +1,22 @@
+This design pattern will treat single object and group of object as same
+Real example:
+lets say we want to perform below operation 
+getSize()
+print()
+on File and Folder
+
+if(file) 
+  ....
+else
+  ....
+
+The above programming is bad 
+Here Composite design pattern is useful
+
+               Composite
+                  |
+    ------------------------
+    |                      |
+   Leaf                Composite   
+                           |
+                        Children

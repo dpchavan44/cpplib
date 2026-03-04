@@ -1,0 +1,6 @@
+Adapter design pattern adapt new functionality without changing existing one
+It provide new functionality to client and internally it use legacy functionality
+Lets say client need new mothod for payment but older system only has old payment method
+Adapter class will provide new mode of payment to client and internally it use older API
+Adapter provide compatibility 
+It fixes interface miss-match
