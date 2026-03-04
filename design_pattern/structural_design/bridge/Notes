@@ -1,0 +1,20 @@
+This design pattern lets devide the related hierarchies which are closely related into separate hierarchy.
+This separate the abstraction and implemenatation which can be developed separate
+One class will have reference to another class and which will delegates work related to that reference
+
+Abstraction is high level control (how) and implemenation layer is responsible for actual work
+Lets say we wanted to send Notification and Reminder both 
+Here if we combine class inheritance then there will be combinatione liek below
+  - NotificationViaSMS
+  - NotificationViaEmail
+  - ReminderViaSMS
+  - ReminderViaEmail
+
+but if we separate SMS Sender and Notification sender separet then we can avoid this exponeantiol growing intertance
+
+Abstraction  (what)                 Implemenatation (how)
+    |                                      |
+Notification                         MessageSender
+    |                                      |
+AlertNotification                    SMSSender
+ReminderNotification                 EMailSender
