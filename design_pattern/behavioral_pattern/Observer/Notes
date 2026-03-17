@@ -1,0 +1,11 @@
+ - Observer design pattern is behavioral design pattern that lets define subscription mechanism to notify multiple object aboit any event occurs.
+ - Class which notify about event called subject also it publishing event to other classes so it called publisher.
+ - And classes which is listing to this class is called subscriber
+ - This pattern suggest that we add subscriber to the subject class in reality subject class has 
+   1. array field to store subscriber object
+   2. Several publish methods which allow to attach or detach subscribers object
+
+ - All subscriber must follow interface and using this interface publiser will communicate with subscriber. it have method interfac with proper parameter that the publisher can pass contextual data to subscriber.
+
+ Example:
+ Lets after order place we want to notify to Email, Inventory, Analytics etc

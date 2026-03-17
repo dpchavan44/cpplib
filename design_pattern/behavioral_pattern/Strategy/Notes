@@ -1,0 +1,10 @@
+ - Strategy is behavioral design pattern that lets us define family of algoritham and make them interchangable.
+ - It put each algorithman in separate class
+ - Strategy apply if class does something specific in lot of ways and extract all of these algorithm into separte class
+ - Original class called context; which has reference field to store one of the startegy
+
+ Example:
+  - Lets say we wanted to add different payment strategy and wanted to select at run time
+  - UPI Payment
+  - Net Banking Payment
+  - Credit Card Payment 
